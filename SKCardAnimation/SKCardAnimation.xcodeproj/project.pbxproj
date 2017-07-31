@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03748B041F2EC7B600831188 /* SKCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B031F2EC7B600831188 /* SKCardView.m */; };
+		03748B0F1F2ECCDD00831188 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 03748B081F2ECCDD00831188 /* 1.png */; };
+		03748B101F2ECCDD00831188 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 03748B091F2ECCDD00831188 /* 2.png */; };
+		03748B111F2ECCDD00831188 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 03748B0A1F2ECCDD00831188 /* 3.png */; };
+		03748B121F2ECCDD00831188 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 03748B0B1F2ECCDD00831188 /* 4.png */; };
+		03748B131F2ECCDD00831188 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 03748B0C1F2ECCDD00831188 /* 5.png */; };
+		03748B141F2ECCDD00831188 /* 上箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 03748B0D1F2ECCDD00831188 /* 上箭头.png */; };
+		03748B151F2ECCDD00831188 /* 下箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 03748B0E1F2ECCDD00831188 /* 下箭头.png */; };
+		03C843FC1F26E08500EE434C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C843FB1F26E08500EE434C /* main.m */; };
+		03C843FF1F26E08600EE434C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C843FE1F26E08600EE434C /* AppDelegate.m */; };
+		03C844021F26E08700EE434C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C844011F26E08700EE434C /* ViewController.m */; };
+		03C844051F26E08800EE434C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C844031F26E08800EE434C /* Main.storyboard */; };
+		03C844071F26E08800EE434C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C844061F26E08800EE434C /* Assets.xcassets */; };
+		03C8440A1F26E08900EE434C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C844081F26E08900EE434C /* LaunchScreen.storyboard */; };
+		03C844151F26E09A00EE434C /* SKCardAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C844141F26E09A00EE434C /* SKCardAnimationTests.m */; };
+		03C844201F26E09C00EE434C /* SKCardAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C8441F1F26E09C00EE434C /* SKCardAnimationUITests.m */; };
+		03C844491F26EE1200EE434C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C844301F26EE1200EE434C /* MASCompositeConstraint.m */; };
+		03C8444A1F26EE1200EE434C /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C844331F26EE1200EE434C /* MASConstraint.m */; };
+		03C8444B1F26EE1200EE434C /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C844351F26EE1200EE434C /* MASConstraintMaker.m */; };
+		03C8444C1F26EE1200EE434C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C844371F26EE1200EE434C /* MASLayoutConstraint.m */; };
+		03C8444D1F26EE1200EE434C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C8443B1F26EE1200EE434C /* MASViewAttribute.m */; };
+		03C8444E1F26EE1200EE434C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C8443D1F26EE1200EE434C /* MASViewConstraint.m */; };
+		03C8444F1F26EE1200EE434C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C8443F1F26EE1200EE434C /* NSArray+MASAdditions.m */; };
+		03C844501F26EE1200EE434C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C844421F26EE1200EE434C /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		03C844511F26EE1200EE434C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C844441F26EE1200EE434C /* View+MASAdditions.m */; };
+		03C844521F26EE1200EE434C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C844471F26EE1200EE434C /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C844111F26E08E00EE434C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C843EF1F26E08200EE434C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C843F61F26E08300EE434C;
+			remoteInfo = SKCardAnimation;
+		};
+		03C8441C1F26E09B00EE434C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C843EF1F26E08200EE434C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C843F61F26E08300EE434C;
+			remoteInfo = SKCardAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03748B021F2EC7B600831188 /* SKCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCardView.h; sourceTree = "<group>"; };
+		03748B031F2EC7B600831188 /* SKCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCardView.m; sourceTree = "<group>"; };
+		03748B081F2ECCDD00831188 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		03748B091F2ECCDD00831188 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		03748B0A1F2ECCDD00831188 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		03748B0B1F2ECCDD00831188 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		03748B0C1F2ECCDD00831188 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		03748B0D1F2ECCDD00831188 /* 上箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上箭头.png"; sourceTree = "<group>"; };
+		03748B0E1F2ECCDD00831188 /* 下箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下箭头.png"; sourceTree = "<group>"; };
+		03C843F71F26E08400EE434C /* SKCardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKCardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C843FB1F26E08500EE434C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03C843FD1F26E08600EE434C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03C843FE1F26E08600EE434C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03C844001F26E08600EE434C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03C844011F26E08700EE434C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03C844041F26E08800EE434C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C844061F26E08800EE434C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03C844091F26E08900EE434C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03C8440B1F26E08900EE434C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C844101F26E08E00EE434C /* SKCardAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKCardAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C844141F26E09A00EE434C /* SKCardAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCardAnimationTests.m; sourceTree = "<group>"; };
+		03C844161F26E09B00EE434C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C8441B1F26E09B00EE434C /* SKCardAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKCardAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C8441F1F26E09C00EE434C /* SKCardAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCardAnimationUITests.m; sourceTree = "<group>"; };
+		03C844211F26E09D00EE434C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C8442F1F26EE1200EE434C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		03C844301F26EE1200EE434C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		03C844311F26EE1200EE434C /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		03C844321F26EE1200EE434C /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		03C844331F26EE1200EE434C /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		03C844341F26EE1200EE434C /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		03C844351F26EE1200EE434C /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		03C844361F26EE1200EE434C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		03C844371F26EE1200EE434C /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		03C844381F26EE1200EE434C /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		03C844391F26EE1200EE434C /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		03C8443A1F26EE1200EE434C /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		03C8443B1F26EE1200EE434C /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		03C8443C1F26EE1200EE434C /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		03C8443D1F26EE1200EE434C /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		03C8443E1F26EE1200EE434C /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		03C8443F1F26EE1200EE434C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		03C844401F26EE1200EE434C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		03C844411F26EE1200EE434C /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		03C844421F26EE1200EE434C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		03C844431F26EE1200EE434C /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		03C844441F26EE1200EE434C /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		03C844451F26EE1200EE434C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		03C844461F26EE1200EE434C /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		03C844471F26EE1200EE434C /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		03C844531F26EE5B00EE434C /* card.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = card.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C843F41F26E08300EE434C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C8440D1F26E08E00EE434C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C844181F26E09B00EE434C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03748B071F2ECCDD00831188 /* card_img */ = {
+			isa = PBXGroup;
+			children = (
+				03748B081F2ECCDD00831188 /* 1.png */,
+				03748B091F2ECCDD00831188 /* 2.png */,
+				03748B0A1F2ECCDD00831188 /* 3.png */,
+				03748B0B1F2ECCDD00831188 /* 4.png */,
+				03748B0C1F2ECCDD00831188 /* 5.png */,
+				03748B0D1F2ECCDD00831188 /* 上箭头.png */,
+				03748B0E1F2ECCDD00831188 /* 下箭头.png */,
+			);
+			path = card_img;
+			sourceTree = "<group>";
+		};
+		03C843EE1F26E08200EE434C = {
+			isa = PBXGroup;
+			children = (
+				03C843F91F26E08400EE434C /* SKCardAnimation */,
+				03C844131F26E09900EE434C /* SKCardAnimationTests */,
+				03C8441E1F26E09B00EE434C /* SKCardAnimationUITests */,
+				03C843F81F26E08400EE434C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03C843F81F26E08400EE434C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C843F71F26E08400EE434C /* SKCardAnimation.app */,
+				03C844101F26E08E00EE434C /* SKCardAnimationTests.xctest */,
+				03C8441B1F26E09B00EE434C /* SKCardAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C843F91F26E08400EE434C /* SKCardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				03748B071F2ECCDD00831188 /* card_img */,
+				03C8442D1F26EE1200EE434C /* Masonry */,
+				03C843FD1F26E08600EE434C /* AppDelegate.h */,
+				03C843FE1F26E08600EE434C /* AppDelegate.m */,
+				03C844001F26E08600EE434C /* ViewController.h */,
+				03C844011F26E08700EE434C /* ViewController.m */,
+				03748B021F2EC7B600831188 /* SKCardView.h */,
+				03748B031F2EC7B600831188 /* SKCardView.m */,
+				03C844531F26EE5B00EE434C /* card.pch */,
+				03C844031F26E08800EE434C /* Main.storyboard */,
+				03C844061F26E08800EE434C /* Assets.xcassets */,
+				03C844081F26E08900EE434C /* LaunchScreen.storyboard */,
+				03C8440B1F26E08900EE434C /* Info.plist */,
+				03C843FA1F26E08500EE434C /* Supporting Files */,
+			);
+			path = SKCardAnimation;
+			sourceTree = "<group>";
+		};
+		03C843FA1F26E08500EE434C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C843FB1F26E08500EE434C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03C844131F26E09900EE434C /* SKCardAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				03C844141F26E09A00EE434C /* SKCardAnimationTests.m */,
+				03C844161F26E09B00EE434C /* Info.plist */,
+			);
+			path = SKCardAnimationTests;
+			sourceTree = "<group>";
+		};
+		03C8441E1F26E09B00EE434C /* SKCardAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03C8441F1F26E09C00EE434C /* SKCardAnimationUITests.m */,
+				03C844211F26E09D00EE434C /* Info.plist */,
+			);
+			path = SKCardAnimationUITests;
+			sourceTree = "<group>";
+		};
+		03C8442D1F26EE1200EE434C /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				03C8442F1F26EE1200EE434C /* MASCompositeConstraint.h */,
+				03C844301F26EE1200EE434C /* MASCompositeConstraint.m */,
+				03C844311F26EE1200EE434C /* MASConstraint+Private.h */,
+				03C844321F26EE1200EE434C /* MASConstraint.h */,
+				03C844331F26EE1200EE434C /* MASConstraint.m */,
+				03C844341F26EE1200EE434C /* MASConstraintMaker.h */,
+				03C844351F26EE1200EE434C /* MASConstraintMaker.m */,
+				03C844361F26EE1200EE434C /* MASLayoutConstraint.h */,
+				03C844371F26EE1200EE434C /* MASLayoutConstraint.m */,
+				03C844381F26EE1200EE434C /* Masonry.h */,
+				03C844391F26EE1200EE434C /* MASUtilities.h */,
+				03C8443A1F26EE1200EE434C /* MASViewAttribute.h */,
+				03C8443B1F26EE1200EE434C /* MASViewAttribute.m */,
+				03C8443C1F26EE1200EE434C /* MASViewConstraint.h */,
+				03C8443D1F26EE1200EE434C /* MASViewConstraint.m */,
+				03C8443E1F26EE1200EE434C /* NSArray+MASAdditions.h */,
+				03C8443F1F26EE1200EE434C /* NSArray+MASAdditions.m */,
+				03C844401F26EE1200EE434C /* NSArray+MASShorthandAdditions.h */,
+				03C844411F26EE1200EE434C /* NSLayoutConstraint+MASDebugAdditions.h */,
+				03C844421F26EE1200EE434C /* NSLayoutConstraint+MASDebugAdditions.m */,
+				03C844431F26EE1200EE434C /* View+MASAdditions.h */,
+				03C844441F26EE1200EE434C /* View+MASAdditions.m */,
+				03C844451F26EE1200EE434C /* View+MASShorthandAdditions.h */,
+				03C844461F26EE1200EE434C /* ViewController+MASAdditions.h */,
+				03C844471F26EE1200EE434C /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C843F61F26E08300EE434C /* SKCardAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C844241F26E09D00EE434C /* Build configuration list for PBXNativeTarget "SKCardAnimation" */;
+			buildPhases = (
+				03C843F31F26E08300EE434C /* Sources */,
+				03C843F41F26E08300EE434C /* Frameworks */,
+				03C843F51F26E08300EE434C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKCardAnimation;
+			productName = SKCardAnimation;
+			productReference = 03C843F71F26E08400EE434C /* SKCardAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03C8440F1F26E08E00EE434C /* SKCardAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C844271F26E09D00EE434C /* Build configuration list for PBXNativeTarget "SKCardAnimationTests" */;
+			buildPhases = (
+				03C8440C1F26E08E00EE434C /* Sources */,
+				03C8440D1F26E08E00EE434C /* Frameworks */,
+				03C8440E1F26E08E00EE434C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C844121F26E08E00EE434C /* PBXTargetDependency */,
+			);
+			name = SKCardAnimationTests;
+			productName = SKCardAnimationTests;
+			productReference = 03C844101F26E08E00EE434C /* SKCardAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03C8441A1F26E09B00EE434C /* SKCardAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C8442A1F26E09D00EE434C /* Build configuration list for PBXNativeTarget "SKCardAnimationUITests" */;
+			buildPhases = (
+				03C844171F26E09B00EE434C /* Sources */,
+				03C844181F26E09B00EE434C /* Frameworks */,
+				03C844191F26E09B00EE434C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C8441D1F26E09B00EE434C /* PBXTargetDependency */,
+			);
+			name = SKCardAnimationUITests;
+			productName = SKCardAnimationUITests;
+			productReference = 03C8441B1F26E09B00EE434C /* SKCardAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C843EF1F26E08200EE434C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AlexanderYeah;
+				TargetAttributes = {
+					03C843F61F26E08300EE434C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+					};
+					03C8440F1F26E08E00EE434C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03C843F61F26E08300EE434C;
+					};
+					03C8441A1F26E09B00EE434C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03C843F61F26E08300EE434C;
+					};
+				};
+			};
+			buildConfigurationList = 03C843F21F26E08300EE434C /* Build configuration list for PBXProject "SKCardAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C843EE1F26E08200EE434C;
+			productRefGroup = 03C843F81F26E08400EE434C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C843F61F26E08300EE434C /* SKCardAnimation */,
+				03C8440F1F26E08E00EE434C /* SKCardAnimationTests */,
+				03C8441A1F26E09B00EE434C /* SKCardAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C843F51F26E08300EE434C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C8440A1F26E08900EE434C /* LaunchScreen.storyboard in Resources */,
+				03748B121F2ECCDD00831188 /* 4.png in Resources */,
+				03748B0F1F2ECCDD00831188 /* 1.png in Resources */,
+				03748B141F2ECCDD00831188 /* 上箭头.png in Resources */,
+				03748B101F2ECCDD00831188 /* 2.png in Resources */,
+				03748B111F2ECCDD00831188 /* 3.png in Resources */,
+				03748B151F2ECCDD00831188 /* 下箭头.png in Resources */,
+				03748B131F2ECCDD00831188 /* 5.png in Resources */,
+				03C844071F26E08800EE434C /* Assets.xcassets in Resources */,
+				03C844051F26E08800EE434C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C8440E1F26E08E00EE434C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C844191F26E09B00EE434C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C843F31F26E08300EE434C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C844501F26EE1200EE434C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				03C8444E1F26EE1200EE434C /* MASViewConstraint.m in Sources */,
+				03C844491F26EE1200EE434C /* MASCompositeConstraint.m in Sources */,
+				03C8444F1F26EE1200EE434C /* NSArray+MASAdditions.m in Sources */,
+				03C844021F26E08700EE434C /* ViewController.m in Sources */,
+				03C843FF1F26E08600EE434C /* AppDelegate.m in Sources */,
+				03C8444C1F26EE1200EE434C /* MASLayoutConstraint.m in Sources */,
+				03C843FC1F26E08500EE434C /* main.m in Sources */,
+				03748B041F2EC7B600831188 /* SKCardView.m in Sources */,
+				03C844521F26EE1200EE434C /* ViewController+MASAdditions.m in Sources */,
+				03C844511F26EE1200EE434C /* View+MASAdditions.m in Sources */,
+				03C8444D1F26EE1200EE434C /* MASViewAttribute.m in Sources */,
+				03C8444A1F26EE1200EE434C /* MASConstraint.m in Sources */,
+				03C8444B1F26EE1200EE434C /* MASConstraintMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C8440C1F26E08E00EE434C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C844151F26E09A00EE434C /* SKCardAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C844171F26E09B00EE434C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C844201F26E09C00EE434C /* SKCardAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C844121F26E08E00EE434C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C843F61F26E08300EE434C /* SKCardAnimation */;
+			targetProxy = 03C844111F26E08E00EE434C /* PBXContainerItemProxy */;
+		};
+		03C8441D1F26E09B00EE434C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C843F61F26E08300EE434C /* SKCardAnimation */;
+			targetProxy = 03C8441C1F26E09B00EE434C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03C844031F26E08800EE434C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C844041F26E08800EE434C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03C844081F26E08900EE434C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C844091F26E08900EE434C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C844221F26E09D00EE434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03C844231F26E09D00EE434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03C844251F26E09D00EE434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKCardAnimation/card.pch";
+				INFOPLIST_FILE = SKCardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKCardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03C844261F26E09D00EE434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKCardAnimation/card.pch";
+				INFOPLIST_FILE = SKCardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKCardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03C844281F26E09D00EE434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKCardAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKCardAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKCardAnimation.app/SKCardAnimation";
+			};
+			name = Debug;
+		};
+		03C844291F26E09D00EE434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKCardAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKCardAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKCardAnimation.app/SKCardAnimation";
+			};
+			name = Release;
+		};
+		03C8442B1F26E09D00EE434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKCardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKCardAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKCardAnimation;
+			};
+			name = Debug;
+		};
+		03C8442C1F26E09D00EE434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKCardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKCardAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKCardAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C843F21F26E08300EE434C /* Build configuration list for PBXProject "SKCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C844221F26E09D00EE434C /* Debug */,
+				03C844231F26E09D00EE434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C844241F26E09D00EE434C /* Build configuration list for PBXNativeTarget "SKCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C844251F26E09D00EE434C /* Debug */,
+				03C844261F26E09D00EE434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C844271F26E09D00EE434C /* Build configuration list for PBXNativeTarget "SKCardAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C844281F26E09D00EE434C /* Debug */,
+				03C844291F26E09D00EE434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C8442A1F26E09D00EE434C /* Build configuration list for PBXNativeTarget "SKCardAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C8442B1F26E09D00EE434C /* Debug */,
+				03C8442C1F26E09D00EE434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C843EF1F26E08200EE434C /* Project object */;
+}
